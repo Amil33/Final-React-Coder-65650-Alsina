@@ -1,0 +1,46 @@
+/* Estilos generales para el navbar */
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 4rem;
+    padding: 0.5rem 0;
+    background-color: #333;
+    color: white; 
+    align-items: center;
+    width: 100%;
+}
+.nav__brand {
+    margin: 0;
+    padding: 0 0 0 1rem;
+    font-size: 0.5rem;
+}
+.nav__ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+    display: flex; 
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+.nav__ul li {
+    margin: 0 15px; 
+    cursor: pointer;
+    transition: color 0.3s; 
+}
+.nav__ul li:hover {
+    color: #f0a500;
+}
+.cart-widget {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.cart-widget span {
+    margin-left: 5px; 
+}
+/* Mensaje de bienvenida */
+.bienvenida {
+    text-align: center;
+}
