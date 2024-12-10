@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import NavBar from './components/navbar/NavBar.jsx';
-import ItemListContainer from './components/navbar/ItemListContainer.jsx';
+import NavBar from './components/layout/navbar/NavBar.jsx';
+import ItemListContainer from './components/common/itemListcontainer/ItemListContainer.jsx';
 
 function App() {
   const [count, setCount] = useState(0);
